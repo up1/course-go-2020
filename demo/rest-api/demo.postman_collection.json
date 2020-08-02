@@ -21,7 +21,12 @@
 							"    var jsonData = pm.response.json();",
 							"    pm.expect(jsonData.name).to.eql('Jon');",
 							"    pm.expect(jsonData.email).to.eql('jon@labstack.com');",
-							"});"
+							"",
+							"",
+							"    pm.environment.set(\"variable_key\", jsonData.name);",
+							"});",
+							"",
+							""
 						],
 						"type": "text/javascript"
 					}
