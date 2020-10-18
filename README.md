@@ -1,1 +1,1 @@
-# course-go-2020
+# Course :: Fundamental of Golang
